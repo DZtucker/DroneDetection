@@ -1,5 +1,5 @@
 # DroneDetection
-本项目所使用的YOLOv7的代码参考自https://github.com/WongKinYiu/yolov7
+本项目使用YOLOv7训练出模型，再将模型部署至TensorRT，所使用的YOLOv7的代码参考自https://github.com/WongKinYiu/yolov7
 ，并无太大改动。
 
 rename.py作用为将目标文件夹内的图片加上一个文件夹名字的前缀，防止在整合数据集时重名。
