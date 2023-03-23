@@ -1,8 +1,8 @@
 import os
 import json
-
-# 读取标注文件
 import cv2
+
+# 作用是根据json文件生成每张图片对应的txt标注文件，并且与图片同名
 
 for i in range(19, 151):
     image_folder = f'D:/Coding/Python/Objectdetection/Objectdetection/Objectdetection/train/{i}'
