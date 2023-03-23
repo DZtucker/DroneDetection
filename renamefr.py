@@ -1,5 +1,7 @@
 import os
 
+# 作用为将train数据集内的文件夹按1开始编号
+
 # 文件夹路径
 folder_path = r'D:\Coding\Python\Objectdetection\Objectdetection\Objectdetection\train'
 
