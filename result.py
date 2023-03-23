@@ -1,6 +1,8 @@
 import os
 import json
 
+#本代码用于处理最后的测试结果文件，使之符合格式
+
 # 输入文件夹路径，包含未处理的图片
 input_folder = r'D:\Coding\Python\Objectdetection\Objectdetection\Objectdetection\test\20190925_133630_1_1'
 # 处理后的图片文件夹路径
