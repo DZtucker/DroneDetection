@@ -3,6 +3,8 @@ import json
 import shutil
 import random
 
+# 作用为在每个文件夹内随机选取50张图片并选取与之同名的txt标注文件
+
 for i in range(75, 151):
     # 遍历图像文件夹
     image_folder = f'D:/Coding/Python/Objectdetection/Objectdetection/Objectdetection/train/{i}'
